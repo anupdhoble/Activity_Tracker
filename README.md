@@ -1,8 +1,9 @@
 **Activity Tracker Chrome Extension Documentation**
 
 ---
-##Note
+## Note
 Ruby on rails backend is a subdirectory of this repository you can click on tracker folder or directlly visit here -> (https://github.com/anupdhoble/tracker)[https://github.com/anupdhoble/tracker]
+Backend is currently deployed on render , can check health of server on ->(https://tracker-g7k2.onrender.com/health)[https://tracker-g7k2.onrender.com/health]
 ## Overview
 
 The Activity Tracker Chrome Extension allows users to monitor their browsing activity by tracking the time spent on different webpages. This documentation provides detailed instructions on how to install and use the extension, along with screenshots for clarity. Additionally, the database schema for the Rails API backend is provided.
