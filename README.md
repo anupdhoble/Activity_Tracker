@@ -2,7 +2,7 @@
 
 ---
 ## Note
-Ruby on rails backend is a subdirectory of this repository you can click on tracker folder or directlly visit here -> https://github.com/anupdhoble/tracker
+Ruby on rails backend is a subdirectory of this repository you can click on Ruby on Rails folder or directlly visit here -> https://github.com/anupdhoble/tracker
 Backend is currently deployed on render , can check health of server on -> https://tracker-g7k2.onrender.com/health
 ## Overview
 
