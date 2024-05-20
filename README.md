@@ -10,14 +10,10 @@ The Activity Tracker Chrome Extension allows users to monitor their browsing act
 
 ### Screenshots
 
-![image](https://github.com/anupdhoble/Activity_Tracker/assets/83175840/9cc40e84-72eb-4734-8ba9-2771e80d2fc5)
-
-*Figure 1: Login Page
-
 ![image](https://github.com/anupdhoble/Activity_Tracker/assets/83175840/a525b01d-3093-4890-bb0d-350b63592693)
 
 
-*Figure 2: HomePage
+*Figure 1: HomePage
 ## Installation
 
 1. **Clone the Repository:** 
@@ -33,6 +29,8 @@ The Activity Tracker Chrome Extension allows users to monitor their browsing act
    - Go to `chrome://extensions/`.
    - Enable "Developer mode" in the top right corner.
    - Click on "Load unpacked" and select the `dist` folder from frontend directory from the cloned repository.
+## Intallation and working Video guide
+Video : https://youtu.be/ikAM3H4LQ4E
 
 ## Usage
 
@@ -77,9 +75,23 @@ banned_websites:
 - updated_at (datetime)
 - userid (integer)
 ```
+## Routes
+### Banned_websites
+- `GET /banned_websites` to get all banned websites for user
+- `POST /banned_websites` to add website name in banned websites list
+- `DELETE /banned_websites/:id` to delete a website name from list
+  
+### User
+- `POST /users` signup
+- `POST /login` login
+- `GET /user_info` To get user info from token
+- 
+### Activites
+- `GET /users/:id/activites` To get activites of a particular user
+- `POST /activities/track` To add activity of particular user
+  
+Note : At token is passed as authorization in header when required
+Can view all APIs here -> https://api.postman.com/collections/26633925-a29b776b-da00-40ca-8823-ceee6c3824c5?access_key=PMAT-01HYBWRDEDMD9M6RMP3WGQ2C47
 
-## Demo Video
-
-[Link to Demo Video](https://www.youtube.com/watch?v=yourvideoid)
 
 ---
