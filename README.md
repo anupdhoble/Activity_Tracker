@@ -44,8 +44,8 @@ Video : https://youtu.be/ikAM3H4LQ4E
 
 3. **Banned Websites**
    - Click on See banned websites that you have banned
-   - You can add new websites to this list , and the will be blocked from your browser
-   - To remove from this list , click on `X` mark in front of website
+   - You can add new websites to this list , and that site will be blocked from your browser
+   - To remove from this banned sites list , click on `X` mark in front of website
 ## Database Schema
 
 Below is the database schema for the Rails API backend:
