@@ -2,8 +2,10 @@
 
 ---
 ## Note
-Ruby on rails backend is a subdirectory of this repository you can click on Ruby on Rails folder or directlly visit here -> https://github.com/anupdhoble/tracker
-Backend is currently deployed on render , can check health of server on -> https://tracker-g7k2.onrender.com/health
+- Ruby on rails backend is a subdirectory of this repository you can click on Ruby on Rails folder or directlly visit here -> https://github.com/anupdhoble/tracker
+- Backend is currently deployed on render , can check health of server on -> https://tracker-g7k2.onrender.com/health
+- Backend is deployed on render freee instance which tends to spindown incase of inactivity , if app request not working , give 1 minute to spin the render backend back up again.
+- Database is SQLite and not seperately deployed from backend and is inbuild in render deployment.
 ## Overview
 
 The Activity Tracker Chrome Extension allows users to monitor their browsing activity by tracking the time spent on different webpages. This documentation provides detailed instructions on how to install and use the extension, along with screenshots for clarity. Additionally, the database schema for the Rails API backend is provided.
