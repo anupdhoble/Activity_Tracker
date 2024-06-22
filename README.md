@@ -13,6 +13,7 @@ The Activity Tracker Chrome Extension allows users to monitor their browsing act
 ### Screenshots
 
 ![image](https://github.com/anupdhoble/Activity_Tracker/assets/83175840/a525b01d-3093-4890-bb0d-350b63592693)
+![image](https://github.com/anupdhoble/Activity_Tracker/assets/83175840/6fe33df3-ecf9-4865-8a76-59c429b7d2f2)
 
 
 *Figure 1: HomePage
